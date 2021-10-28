@@ -68,7 +68,7 @@ if (isset($_POST["name"]) && ($_POST["email"]) != "" && ($_POST["subject"]) != "
         <?php } else { ?>
             <div class="row">
                 <div class="col-md-5 col-xxl-5 col-10 mx-auto mt-5">
-                    <form action="/contact_form/index.php" method="POST">
+                    <form action="/index.php" method="POST">
                         <div class="mb-3">
                             <label for="name" class="form-label">Enter Name</label>
                             <input type="text" class="form-control <?= $invalied_class_name ?? "" ?>" id="name" name="name" aria-describedby="emailHelp" autocomplete="off">
